@@ -11,3 +11,13 @@ class Children(Parents):
          print(self.age)
          print(self.height)
 daun = Children()
+
+class Wow:
+    def _wow(self):
+        print('Wow')
+    def _hello(self):
+        print('Hello')
+some_obj = Wow()
+some_obj._hello()
+some_obj._wow()
+
