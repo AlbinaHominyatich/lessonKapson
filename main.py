@@ -29,3 +29,8 @@ class Hello_World(Hello):
         super().__init__()
         print("World")
 HELLO_WORLD = Hello_World()
+
+
+#LESSON6
+
+
