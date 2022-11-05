@@ -32,5 +32,23 @@ HELLO_WORLD = Hello_World()
 
 
 #LESSON6
+import requests
+#help(requests)
+def first_functuon():
+    ...
+class FirstClass:
+    ...
+rq = requests
+first_f = first_functuon
+nazar = FirstClass
+print(requests.__name__)
+print(rq.__name__)
+print(first_functuon.__name__)
+print(__name__)
+print(type(__name__))
+
+ls = ""
+for i in dir(ls):
+    print(i)
 
 
